@@ -2,9 +2,9 @@
 module load python/3.8
 virtualenv ~/ldm
 source ~/ldm/bin/activate
-pip install --no-index --upgrade pip
-pip install --no-index torch torchvision numpy jupyterlab
+pip install --upgrade pip==20.3
 pip install -r requirements.txt
+pip install --no-index jupyterlab
 
 
 # create bash script for opening jupyter notebooks https://stackoverflow.com/a/4879146/9214620
