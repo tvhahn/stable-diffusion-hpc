@@ -1,6 +1,6 @@
 torch
 torchvision
-numpy==1.19.2
+scipy
 albumentations==0.4.3
 diffusers
 opencv-python==4.1.2.30
