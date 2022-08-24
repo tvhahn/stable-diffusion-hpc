@@ -1,5 +1,5 @@
 #!/bin/bash
-module load python/3.8
+module load python/3.8 gcc/9.3.0 arrow
 virtualenv ~/ldm
 source ~/ldm/bin/activate
 pip install --upgrade pip==20.3

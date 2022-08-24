@@ -21,7 +21,7 @@ endif
 # COMMANDS                                                                      #
 #################################################################################
 
-environment:
+env:
 ifeq (True,$(HAS_CONDA)) # assume on local
 	@echo ">>> Detected conda. Assume local computer. Installing packages from yml."
 	bash install_conda_local.sh
